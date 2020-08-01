@@ -47,4 +47,5 @@ OCRopus has gone through many incarnations:
   
   - **[cctc](https://github.com/ocropus/cctc)**, **[cctc2](https://github.com/ocropus/cctc2)** -- CTC implementations for PyTorch 
     - not needed anymore--use the native bindings)
-  - **[pyopenfst](https://github.com/ocropus/pyopenfst)** -- simple bindings of OpenFST to Python (not needed anymore--use the native bindings)
+  - **[pyopenfst](https://github.com/ocropus/pyopenfst)**
+    - simple bindings of OpenFST to Python (not needed anymore--use the native bindings)
