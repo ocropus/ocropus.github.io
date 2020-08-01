@@ -4,26 +4,26 @@ OCRopus is a collection of neural-network based OCR engines originally developed
 
 OCRopus has gone through many incarnations:
 
-- hwrec -- a C-based handwriting recognition engine
+- **hwrec** -- a C-based handwriting recognition engine
   - deployed by the US Census Bureau in 1995
   - uses a novel dynamic programming based segmentation algorithm (a decade later used as "seam carving" in computer graphics)
   - neural network character classification
   - recognition lattices
   - decoding using finite state transducers
-- OCRopus 1 -- a C++ based OCR engine based on a port of hwrec
+- **OCRopus 1** -- a C++ based OCR engine based on a port of hwrec
   - efficient branch-and-bound geometric layout analysis algorithms
-- OCRopus 2 (ocropy) -- a Python port of OCRopus 1
+- **OCRopus 2 = ocropy** -- a Python port of OCRopus 1
   - this is the most widely used version of OCRopus right now and has several derivative systems
   - robust text line normalization prior to recognition
   - LSTM-based recognizer
-- OCRopus 3 -- a PyTorch 0.3 port of OCRopus 2
+- **OCRopus 3** -- a PyTorch 0.3 port of OCRopus 2
   - incompatible with later versions of PyTorch, so don't use
   - released as a collection of separate small projects
   - GPU-based recognition
   - trainable page skew and rotation detection
   - trainable layout analysis
   - character-based language models
-- OCRopus 4 -- a PyTorch 1.x port of OCRopus 3
+- **OCRopus 4** -- a PyTorch 1.x port of OCRopus 3
   - to be released in 2020
   - deeper models for page segmentation and text recognition
   - word or line-based recognition
@@ -31,3 +31,18 @@ OCRopus has gone through many incarnations:
   - eliminates the need for text line normalization
   - self-supervised training
   - WebDataset-based I/O
+  
+  # Related Projects
+  
+  - **Calamari OCR** -- github.com/Calamari-OCR/calamari Text line recognizer based on OCRopy and Kraken
+  - **Kraken OCR** -- github.com/mittagessen/kraken Turnkey OCR system optimized for historical and non-Latin script materials derived from OCRopy.
+  
+  # Related Tools
+  
+  - **hocr-tools** -- tools for manipulating the hOCR OCR output format
+  - **ocrodeg** -- automated document degradation of binary images
+  
+  # Obsolete Tools
+  
+  - **cctc**, **cctc2** -- CTC implementations for PyTorch (not needed anymore--use the native bindings)
+  - **pyopenfst** -- simple bindings of OpenFST to Python (not needed anymore--use the native bindings)
