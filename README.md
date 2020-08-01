@@ -27,7 +27,7 @@ OCRopus has gone through many incarnations:
   - to be released in 2020
   - deeper models for page segmentation and text recognition
   - word or line-based recognition
-  - fully grayscale recognition
+  - direct segmentation and recognition on grayscale images
   - eliminates the need for text line normalization
   - self-supervised training
   - WebDataset-based I/O
