@@ -40,8 +40,8 @@ OCRopus has gone through many incarnations:
   
   # Related Tools
   
-  - **hocr-tools** -- tools for manipulating the hOCR OCR output format
-  - **ocrodeg** -- automated document degradation of binary images
+  - **[hocr-tools](http://github.com/ocropus/hocr-tools)** -- tools for manipulating the hOCR OCR output format
+  - **[ocrodeg](http://github.com/ocropus/ocrodeg)** -- automated document degradation of binary images
   
   # Obsolete Tools
   
