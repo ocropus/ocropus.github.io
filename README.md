@@ -32,18 +32,18 @@ OCRopus has gone through many incarnations:
   - self-supervised training
   - WebDataset-based I/O
   
-  # Related Projects
-  
-  - **[Calamari OCR](http://github.com/Calamari-OCR/calamari)** --  Text line recognizer based on OCRopy and Kraken
-  - **[Kraken OCR](github.com/mittagessen/kraken)** --  Turnkey OCR system optimized for historical and non-Latin script materials derived from OCRopy.
-  - **[Tesseract OCR](https://github.com/tesseract-ocr)** -- OCR system that contains a heavily modified C++ port of ocropy's line recognizer
-  
-  # Related Tools
-  
-  - **[hocr-tools](http://github.com/ocropus/hocr-tools)** -- tools for manipulating the hOCR OCR output format
-  - **[ocrodeg](http://github.com/ocropus/ocrodeg)** -- automated document degradation of binary images
-  
-  # Obsolete Tools
+# Related Projects
+
+- **[Calamari OCR](http://github.com/Calamari-OCR/calamari)** --  Text line recognizer based on OCRopy and Kraken
+- **[Kraken OCR](github.com/mittagessen/kraken)** --  Turnkey OCR system optimized for historical and non-Latin script materials derived from OCRopy.
+- **[Tesseract OCR](https://github.com/tesseract-ocr)** -- OCR system that contains a heavily modified C++ port of ocropy's line recognizer
+
+# Related Tools
+
+- **[hocr-tools](http://github.com/ocropus/hocr-tools)** -- tools for manipulating the hOCR OCR output format
+- **[ocrodeg](http://github.com/ocropus/ocrodeg)** -- automated document degradation of binary images
+
+# Obsolete Tools
   
 - **[cctc](https://github.com/ocropus/cctc)**, **[cctc2](https://github.com/ocropus/cctc2)** -- CTC implementations for PyTorch 
   - not needed anymore--use the native bindings)
