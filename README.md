@@ -12,7 +12,7 @@ OCRopus has gone through many incarnations:
   - decoding using finite state transducers
 - **OCRopus 1** -- a C++ based OCR engine based on a port of hwrec
   - efficient branch-and-bound geometric layout analysis algorithms
-- **OCRopus 2 = ocropy** -- a Python port of OCRopus 1
+- **[OCRopus 2 = ocropy](https://github.com/ocropus/ocropy)** -- a Python port of OCRopus 1
   - this is the most widely used version of OCRopus right now and has several derivative systems
   - robust text line normalization prior to recognition
   - LSTM-based recognizer
@@ -34,8 +34,9 @@ OCRopus has gone through many incarnations:
   
   # Related Projects
   
-  - **Calamari OCR** -- github.com/Calamari-OCR/calamari Text line recognizer based on OCRopy and Kraken
-  - **Kraken OCR** -- github.com/mittagessen/kraken Turnkey OCR system optimized for historical and non-Latin script materials derived from OCRopy.
+  - **[Calamari OCR](http://github.com/Calamari-OCR/calamari)** --  Text line recognizer based on OCRopy and Kraken
+  - **[Kraken OCR](github.com/mittagessen/kraken)** --  Turnkey OCR system optimized for historical and non-Latin script materials derived from OCRopy.
+  - **[Tesseract OCR](https://github.com/tesseract-ocr)** -- OCR system that contains a heavily modified C++ port of ocropy's line recognizer
   
   # Related Tools
   
@@ -44,5 +45,6 @@ OCRopus has gone through many incarnations:
   
   # Obsolete Tools
   
-  - **cctc**, **cctc2** -- CTC implementations for PyTorch (not needed anymore--use the native bindings)
-  - **pyopenfst** -- simple bindings of OpenFST to Python (not needed anymore--use the native bindings)
+  - **[cctc](https://github.com/ocropus/cctc)**, **[cctc2](https://github.com/ocropus/cctc2)** -- CTC implementations for PyTorch 
+    - not needed anymore--use the native bindings)
+  - **[pyopenfst](https://github.com/ocropus/pyopenfst)** -- simple bindings of OpenFST to Python (not needed anymore--use the native bindings)
