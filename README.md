@@ -23,14 +23,17 @@ OCRopus has gone through many incarnations:
   - trainable page skew and rotation detection
   - trainable layout analysis
   - character-based language models
-- **OCRopus 4** -- a PyTorch 1.x port of OCRopus 3 with many new features
-  - to be released in 2020
+- **OCRopus 4** -- a PyTorch port of OCRopus 3 with many new features
   - deeper models for page segmentation and text recognition
   - word or line-based recognition
   - direct segmentation and recognition on grayscale images
   - eliminates the need for text line normalization
   - self-supervised training
   - WebDataset-based I/O
+ 
+# Consulting / Support
+
+For commercial consulting or support, please contact **consulting@ocropus.org**
   
 # Related Projects
 
