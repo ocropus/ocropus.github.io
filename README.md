@@ -38,7 +38,7 @@ For commercial consulting or support, please contact **consulting@ocropus.org**
 # Related Projects
 
 - **[Calamari OCR](http://github.com/Calamari-OCR/calamari)** --  Text line recognizer based on OCRopy and Kraken
-- **[Kraken OCR](github.com/mittagessen/kraken)** --  Turnkey OCR system optimized for historical and non-Latin script materials derived from OCRopy.
+- **[Kraken OCR](https://github.com/mittagessen/kraken)** --  Turnkey OCR system optimized for historical and non-Latin script materials derived from OCRopy.
 - **[Tesseract OCR](https://github.com/tesseract-ocr)** -- OCR system that contains a heavily modified C++ port of ocropy's line recognizer
 
 # Related Tools
